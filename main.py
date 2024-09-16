@@ -1,17 +1,7 @@
-'''
-Write a program that takes your first name as user input
-Then ask the user for the number of repeats
-(Don't forget to convert this to an int)
-Then print out the first name joined to itself repeat number of times
+frisbees = 3  #pretend we got from user input
+COST_OF_FRISBEES = 15
+total_cost =45 #YOU DO THIS PART WITH VARIABLES AND MATH OPS
+print("The total cost is $", total_cost, sep="")
+print("COST_OF_FRISBEES each  15$")
+print("I want to buy 3 FRISBEES" )
 
-Sample Output if you used the word Nick for the name input and 3 for the repeat inputN
-NickNickNick
-'''
-name = input("Enter your first name: ")
-repeats=input("How many repeats do you want: ")
-repeats_num=int(repeats)
-
-repeats = input("How many repeats do you want: ")
-###YOUDO convert repeats to repeats_num with the int()
-repeats_num = int(repeats)
-print(name * repeats_num)
